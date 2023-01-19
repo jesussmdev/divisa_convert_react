@@ -1,0 +1,44 @@
+body{
+  background: url("../src/divisa.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.currency-converter {
+  width: 400px;
+  margin: 10% auto;
+  text-align: center;
+  background-color: #868686;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.currency-converter label {
+  font-size: 16px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.currency-converter select {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.currency-converter input[type="number"] {
+  font-size: 16px;
+  padding: 5px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  text-align: right;
+}
+
+.currency-converter p {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+}
